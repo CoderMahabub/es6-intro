@@ -34,5 +34,6 @@ console.log(total);
 // ... Collect elements only from an array
 const numbers = [23, 65, 99, 32, 32, 32, 32, 42, 42, 53, 4, 43, 100];
 const maxArray = Math.max(...numbers);
+console.log(...numbers);
 console.log(maxArray);
 
